@@ -57,10 +57,10 @@ function Login() {
 				</div>
 			</div>
 			<div className="inputs">
-				<TextField label="Login" fullWidth onChange={handleCodigoChange} margin="normal" />
-				<TextField label="Senha" type="password" fullWidth onChange={handleSenhaChange} margin="normal" />
+				<TextField label="Username" fullWidth onChange={handleCodigoChange} margin="normal" />
+				<TextField label="Password" type="password" fullWidth onChange={handleSenhaChange} margin="normal" />
 				<Button variant="outlined" color="primary" fullWidth onClick={handleLoginWeb}>
-					Entrar
+					Login
 				</Button>
 			</div>
 		</div>
